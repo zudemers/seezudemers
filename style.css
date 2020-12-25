@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding-top:800px;
+	font-family: 'Langar', cursive;
+}
+.image{
+	width: 200px;
+	margin-bottom: 50px;
+	border-radius: 50%;
+}
+#welcome{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(#34aeeb 0%,#34eb4f 50%,#d3eb34 100%);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.83;
+	display: table;
+	text-align: left;
+	z-index: 9;
+}
+.parallax-inner{
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+.menu{
+	list-style: none;
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 30px;
+	cursor:pointer;
+}
+.link{
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 9px;
+	padding-left: 5px;
+	font-size: 20px;	
+}
+.link:hover{
+	background-color: 	darkgoldenrod;
+}
